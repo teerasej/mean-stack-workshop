@@ -6,6 +6,8 @@
 
 2. สร้างระบบเพิ่มข้อมูลเข้า MongoDB ดังนี้
   1. สร้าง `views/index.jade` สำหรับ แสดง product ทั้งหมดใน collection
+    - ตั้งชื่อ database เอง
+    - ลองใช้คำสั่ง `mongo` เพื่อใส่ข้อมูลจำลองเพื่อใช้ทดสอบในเว็บแอพ
   2. สร้าง link จาก index.jade ไปยังไฟล์ `views/create.jade` (hint: `app.get` )
   3. สร้าง Web form ใน `views/create.jade` เพื่อรับข้อมูลไปสร้างเป็น document ใหม่ใน collection
   4. สร้างระบบ routing รับค่าที่ส่งจาก web form (hint: `app.post`)
