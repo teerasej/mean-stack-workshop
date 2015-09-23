@@ -1,8 +1,9 @@
 # Monk module labs
 1. สร้าง โปรเจค express ใหม่ด้วย Express Generator
   - ติดตั้ง monk module `npm install monk --save`
-  - ติดตั้ง module อื่นๆ ที่เหลือ
-  - ใช้ monk module ใน app.js เป็น middleware
+  - ติดตั้ง mongodb module `npm install mongo --save`
+  - ติดตั้ง module อื่นๆ ที่เหลือ (hint: `npm install`)
+  - ใช้ monk module ใน app.js เป็น middleware (hint: 3-2-2, 3-2-3)
 
 2. สร้างระบบเพิ่มข้อมูลเข้า MongoDB ดังนี้
   1. สร้าง `views/index.jade` สำหรับ แสดง product ทั้งหมดใน collection
