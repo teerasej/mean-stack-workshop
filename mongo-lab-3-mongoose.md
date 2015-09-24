@@ -1,6 +1,6 @@
 # Mongoose module labs
 1. สร้าง โปรเจค express ใหม่ด้วย Express Generator
-  - ติดตั้ง monk module `npm install mongoose --save`
+  - ติดตั้ง mongoose module `npm install mongoose --save`
   - ติดตั้ง mongodb module `npm install mongodb --save`
   - ติดตั้ง module อื่นๆ ที่เหลือ (hint: `npm install)
 
