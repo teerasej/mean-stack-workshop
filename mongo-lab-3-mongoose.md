@@ -5,7 +5,8 @@
   - ติดตั้ง module อื่นๆ ที่เหลือ (hint: `npm install)
 
 2. สร้างระบบเพิ่มข้อมูลเข้า MongoDB ดังนี้
-  1. สร้าง `views/index.jade` สำหรับ แสดง product ทั้งหมดใน collection
+  1. สร้าง Schema สำหรับ Collection 'hospital' ตามรายละเอียดด้านล่าง
+  2. สร้าง `views/index.jade` สำหรับ แสดง hospital ทั้งหมดใน collection
     - ตั้งชื่อ database เอง
     - ลองใช้คำสั่ง `mongo` เพื่อใส่ข้อมูลจำลองเพื่อใช้ทดสอบในเว็บแอพ
   2. สร้าง link จาก index.jade ไปยังไฟล์ `views/create.jade` (hint: `app.get` )
